@@ -1,26 +1,34 @@
-# Online Store Sales Analysis (EDA)
+# SalesEDA
 
-## Project Goal
-The goal of this project is to conduct an exploratory data analysis (EDA) of online store sales, identify key patterns, trends, and customer behavior patterns, and identify potential areas for business improvement.
+This project contains exploratory data analysis (EDA) of sales data.
+The main goal is to study the data structure, identify patterns, visualize it, and prepare a basis for subsequent modeling or building analytical reports.
+
 
 ## Data Source
-Data taken in CSV/Excel format.
+Data taken in CSV format.
 The data file includes the following main columns:
 - Order ID — unique order identifier
+- Order Date — order date
+- Ship Date ship date
+- Ship Mode - ship mode
+- Customer ID - customer identifier
 - Customer Name — customer name
-- Product Name — product name
+- Segment — consumer, corporate or home office
+- Country — country
+- City — city
+- State — state
+- Postal Code — postal code
+- Region — sales region
+- Product ID — product identifier
 - Category — product category
 - Sub-Category — product subcategory
+- Product Name — product name
 - Sales — sales amount
-- Quantity — product quantity
-- Discount — applied discount
-- Profit — profit
-- Order Date — order date
-- Region — sales region
+
 
 ## Analysis Methods
 The following methods and tools were used in the project:
-- Python and the pandas and numpy libraries for data processing and cleaning
+- Python and the pandas library for data processing and cleaning
 - Data Visualization: matplotlib, seaborn, plotly
 - Data cleaning: handling missing values, duplicates, adjusting data types
 - Grouping and aggregating data for analysis by category, region, customer, and time
@@ -29,11 +37,5 @@ The following methods and tools were used in the project:
 - Line charts for analyzing time trends - Bar charts for comparing sales by category and region
 - Identifying top customers and products by sales volume
 
-## Key Findings
-- **Product Categories:** The highest revenue comes from categories X and Y, while the least profitable category is category Z.
-- **Regional Sales:** Region A demonstrates the highest sales volume, while region B demonstrates the lowest.
-- **Seasonality:** Peak sales were observed in months X and Y, with a decline in month Z.
-- **Customers:** The top 10 customers account for a significant portion of revenue.
-- **Products:** The best-selling products generate the bulk of revenue; there are also products with low sales that can be considered for assortment optimization.
 
 The project demonstrates the full cycle of data analysis—from data loading and cleaning to visualization and the formulation of business insights.
